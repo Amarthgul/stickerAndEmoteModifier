@@ -3,7 +3,7 @@ import PIL.Image as img
 import os
 
 def ImageResize():
-    dir = r'C:\Amarth\Documents\Pictus\Ponies\TransImages\TwilightSparkle'
+    dir = r''#Enter Path here
     stick = '\\'
     files = os.listdir(dir)
     for itera in range(len(files)):
@@ -12,7 +12,7 @@ def ImageResize():
         target = img.open(targetLoc)
         xEdge, yEdge = reSize(target.size)
         out = target.resize((xEdge, yEdge), img.ANTIALIAS)
-        out.save(r'C:\Amarth\Documents\Pictus\Ponies\TransImages\Try\pi'+ str(itera) +'c.png','PNG')
+        out.save(r''+ str(itera) +'c.png','PNG')#Output files name
 
 def reSize(inlist):
     smallEdge = int( min(inlist[0], inlist[1]) * 512 / max(inlist[0], inlist[1]))
