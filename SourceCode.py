@@ -34,7 +34,8 @@ def GetPathAndResize():
             break;
     #print(files)
     outDir = dir + '\\OutputImages\\'
-    os.makedirs(outDir)
+    if not os.path.exists(outDir):
+        os.makedirs(outDir)
     #============================================================
     for itera in range(len(files)):
         targetLoc = dir + '\\' + files[itera]
