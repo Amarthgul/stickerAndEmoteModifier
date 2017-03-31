@@ -2,5 +2,5 @@
 
 Used for resize images, especially for large amounts of pics.
 
-Code is easy to understand...well, maybe too easy,
-so I'll try to release a .exe version with GUI, probably...
+Orignally coded to resize a batch of images in order to fit the telegram tickers' requirement,
+and yet it works great~
