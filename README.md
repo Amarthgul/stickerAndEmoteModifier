@@ -1,8 +1,8 @@
-# BatchImageResizeScript
+# Batch Image Resize
 
 Used for resize images, especially for large amounts of pics.
 
-Orignally coded to resize a batch of images in order to fit the telegram tickers' requirement, hence the output images are 512 * (>=512) pixels, you can change it in the SourceCode, variable 'maxsize' decides the max size of image, equal scaling.
+Orignally coded to resize a batch of images in order to fit the Telegram stickers' requirement, hence the output images are 512 * (>=512) pixels, you can change it in the SourceCode, variable 'maxsize' decides the max size of image, equal scaling.
 
 # Execuable file User Guide:
 
