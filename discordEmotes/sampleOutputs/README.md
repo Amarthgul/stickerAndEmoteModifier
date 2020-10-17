@@ -1,6 +1,7 @@
 Contains some sample outputs of the script:
 
 * Adobe logo
+![Adobe Logo](Adobe.png)
 * Adobe Photoshop logo 
 * Autodesk logo
 * Autodesk Maya logo
