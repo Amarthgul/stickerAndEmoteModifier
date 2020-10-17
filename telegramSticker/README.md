@@ -1,4 +1,4 @@
-# Batch Image Resize
+# Batch Image Resize for Telegram
 
 Used for resize images, especially for large amounts of images.
 
