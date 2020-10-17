@@ -1,6 +1,6 @@
 # Resizing images for Dicsord emotes
 
-By deafult, this script copies all image with files with extension `.jpg` and `.png`, resize them into `128x128` images and stores the output images in a new folder. 
+By deafult, this script copies all `.jpg` and `.png` images, resizes them into `128x128` and stores the output images in a new folder. 
 
 Discord stated that emotes uploaded must:
 
@@ -12,3 +12,4 @@ Therotically a `128x128` image cannot exceeds `256KB`, so size is not considered
 # To use this
 
 If you have Python and PIL installed, copy the file to the folder that contains the images you want to convert, then double click to run. 
+A new folder called `OutputImages` will be created containing all the converted images.
