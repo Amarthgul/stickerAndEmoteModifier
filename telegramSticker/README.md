@@ -8,4 +8,5 @@ Orignally coded to resize a batch of images in order to fit the Telegram sticker
 
 Copy the .exe file to where your images are, then run it by double click or right-click and run, a new folder called 'OutputImages' will be created in which contains images resized to `512 * (>=512)` resloution, with alpha/opacity reserved if exists.
 
-Update 12/28/2017: No update, I simply found that code massy and shitty.
+Note the telegram verison is created back to 2016, thus the code is very... _broken_
+
